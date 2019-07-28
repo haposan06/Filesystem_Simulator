@@ -2,6 +2,8 @@ package com.jhn.scala.files
 
 class Directory(override val parentPath: String, override val name: String, val contents: List[DirEntry])
   extends DirEntry(parentPath, name) {
+
+  def getType: String = "Directory"
   def replaceEntry(entryName: String, newEntry: Directory):Directory = Directory(parentPath, name,
     contents.filter(entry => !entry.name.equals(entryName)) :+ newEntry)
 
