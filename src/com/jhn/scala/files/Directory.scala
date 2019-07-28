@@ -1,5 +1,7 @@
 package com.jhn.scala.files
 
+import com.jhn.scala.filesystem.FileSystemExceptions
+
 class Directory(override val parentPath: String, override val name: String, val contents: List[DirEntry])
   extends DirEntry(parentPath, name) {
 
@@ -31,6 +33,7 @@ class Directory(override val parentPath: String, override val name: String, val 
 
   def asDirectory: Directory = this
 
+  def asFile: File = throw new FileSystemExceptions("Directory cannot be converted to file")
 }
 
 object Directory {
