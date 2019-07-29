@@ -12,6 +12,7 @@ object Command {
   val PWD_CMD: String = "pwd"
   val TOUCH_CMD: String = "touch"
   val CD_CMD:String = "cd"
+  val RM_CMD:String = "rm"
 
   def emptyCommand: Command = new Command {
     def apply(state: State) = state
@@ -31,6 +32,7 @@ object Command {
     else if (PWD_CMD.equals(tokens(0))) new PwdCommand
     else if (TOUCH_CMD.equals(tokens(0))) new TouchCommand(tokens(1))
     else if (CD_CMD.equals(tokens(0)))  new CdCommand(tokens(1))
+    else if (RM_CMD.equals(tokens(0)))  new RmCommand(tokens(1))
     else new UnknowCommand
   }
 }

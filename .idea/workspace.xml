@@ -3,19 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="712101f9-7477-4e5c-8b34-d4eaeded5117" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileSystem_Simulator/com/jhn/scala/commands/CdCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FileSystem_Simulator/com/jhn/scala/commands/CdCommand.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FileSystem_Simulator/com/jhn/scala/commands/Command$$anon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FileSystem_Simulator/com/jhn/scala/commands/Command$$anon$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FileSystem_Simulator/com/jhn/scala/commands/Command$$anon$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FileSystem_Simulator/com/jhn/scala/commands/Command$$anon$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FileSystem_Simulator/com/jhn/scala/commands/Command$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FileSystem_Simulator/com/jhn/scala/commands/Command$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FileSystem_Simulator/com/jhn/scala/commands/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FileSystem_Simulator/com/jhn/scala/commands/Command.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileSystem_Simulator/com/jhn/scala/files/DirEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FileSystem_Simulator/com/jhn/scala/files/DirEntry.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FileSystem_Simulator/com/jhn/scala/files/Directory$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FileSystem_Simulator/com/jhn/scala/files/Directory$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FileSystem_Simulator/com/jhn/scala/files/Directory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FileSystem_Simulator/com/jhn/scala/files/Directory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileSystem_Simulator/com/jhn/scala/files/File$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FileSystem_Simulator/com/jhn/scala/files/File$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileSystem_Simulator/com/jhn/scala/files/File.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FileSystem_Simulator/com/jhn/scala/files/File.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/jhn/scala/commands/Command.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jhn/scala/commands/Command.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jhn/scala/files/DirEntry.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jhn/scala/files/DirEntry.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/jhn/scala/files/Directory.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jhn/scala/files/Directory.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jhn/scala/files/File.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jhn/scala/files/File.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jhn/scala/commands/CdCommand.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+            <state relative-caret-position="133">
+              <caret line="11" column="46" selection-start-line="9" selection-start-column="6" selection-end-line="11" selection-end-column="46" />
               <folding>
                 <element signature="e#31#79#0" expanded="true" />
               </folding>
@@ -42,10 +38,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jhn/scala/commands/RmCommand.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+              <folding>
+                <element signature="e#31#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jhn/scala/files/Directory.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-293">
-              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            <state relative-caret-position="423">
+              <caret line="29" column="84" selection-start-line="29" selection-start-column="84" selection-end-line="29" selection-end-column="84" />
             </state>
           </provider>
         </entry>
@@ -62,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jhn/scala/commands/Command.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+            <state relative-caret-position="283">
+              <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -91,11 +99,12 @@
         <option value="$PROJECT_DIR$/src/com/jhn/scala/commands/TouchCommand.scala" />
         <option value="$PROJECT_DIR$/src/com/jhn/scala/commands/MkdirCommand.scala" />
         <option value="$PROJECT_DIR$/src/com/jhn/scala/commands/CreateEntry.scala" />
-        <option value="$PROJECT_DIR$/src/com/jhn/scala/files/Directory.scala" />
         <option value="$PROJECT_DIR$/src/com/jhn/scala/files/File.scala" />
-        <option value="$PROJECT_DIR$/src/com/jhn/scala/commands/Command.scala" />
         <option value="$PROJECT_DIR$/src/com/jhn/scala/files/DirEntry.scala" />
         <option value="$PROJECT_DIR$/src/com/jhn/scala/commands/CdCommand.scala" />
+        <option value="$PROJECT_DIR$/src/com/jhn/scala/commands/Command.scala" />
+        <option value="$PROJECT_DIR$/src/com/jhn/scala/commands/RmCommand.scala" />
+        <option value="$PROJECT_DIR$/src/com/jhn/scala/files/Directory.scala" />
       </list>
     </option>
   </component>
@@ -219,12 +228,12 @@
       <updated>1564250400328</updated>
       <workItem from="1564250409554" duration="9443000" />
       <workItem from="1564302875110" duration="3000" />
-      <workItem from="1564303276122" duration="13573000" />
+      <workItem from="1564303276122" duration="16322000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23019000" />
+    <option name="totallyTimeSpent" value="25768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="901" extended-state="6" />
@@ -381,13 +390,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jhn/scala/commands/Command.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jhn/scala/files/DirEntry.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -395,20 +397,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jhn/scala/files/Directory.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-293">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jhn/scala/commands/CdCommand.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        <state relative-caret-position="133">
+          <caret line="11" column="46" selection-start-line="9" selection-start-column="6" selection-end-line="11" selection-end-column="46" />
           <folding>
             <element signature="e#31#79#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jhn/scala/commands/RmCommand.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+          <folding>
+            <element signature="e#31#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jhn/scala/commands/Command.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jhn/scala/files/Directory.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="29" column="84" selection-start-line="29" selection-start-column="84" selection-end-line="29" selection-end-column="84" />
         </state>
       </provider>
     </entry>

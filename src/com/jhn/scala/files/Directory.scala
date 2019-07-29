@@ -24,11 +24,22 @@ class Directory(override val parentPath: String, override val name: String, val 
       path.substring(1).split(Directory.SEPARATOR).toList.filter(x=> !x.isEmpty)
   }
 
+  def removeEntry(entryName:String): Directory = {
+    if (!hasEntry(entryName)) this
+    else
+      new Directory(parentPath, name, contents.filter(x => {!x.name.equals(entryName)}))
+  }
+
   def hasEntry(name: String) : Boolean = findEntry(name) != null
 
   def findDescendants(path: List[String]): Directory = {
     if (path.isEmpty) this
     else findEntry(path.head).asDirectory.findDescendants(path.tail)
+  }
+
+  def findDescendants(relativePath: String): Directory = {
+    if (relativePath.isEmpty) this
+    else findDescendants(relativePath.split(Directory.SEPARATOR).toList)
   }
 
   def asDirectory: Directory = this
